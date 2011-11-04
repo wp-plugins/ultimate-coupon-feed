@@ -12,7 +12,7 @@
 
  * Plugin URI: http://www.proappdevelopment.com/our-work/ultimate-coupon-app-free
 
- * Version: 1.06
+ * Version: 1.07
 
  * =======================================================================
 
