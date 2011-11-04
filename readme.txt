@@ -3,8 +3,8 @@ Contributors: KWM Holdings LLC
 Donate link: http://www.homebudgetideas.com
 Tags: coupons, online coupons, coupon blog, grocery coupons, autoblogging, 
 Requires at least: 2.2.1
-Tested up to: 2.6
-Stable tag: 1.06
+Tested up to: 3.2
+Stable tag: 1.07
 Ultimate-Coupon-Feed makes coupon blogging a breeze by auto creating coupon blog posts by pulling in the latest coupon details for major stores.
 
 
