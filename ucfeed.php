@@ -3961,7 +3961,7 @@ class UCFeed {
 
 function like_content($content) {
 global $post;
-$contentHtml = '<br /><span class="custom_text" style="color:grey;font-size:12px;">Thanks to HomeBudgetIdeas.com for this <a target="_blank" href="http://www.homebudgetideas.com" >Grocery Coupon</a></span>';
+$contentHtml = '';
 return $content . $contentHtml;
 }
 add_filter( 'the_content', 'like_content' );
