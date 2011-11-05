@@ -6,13 +6,13 @@
 
  * Plugin Name: Ultimate Coupon Feed 
 
- * Description: Enables administrators to create posts automatically from RSS/Atom feeds.
+ * Description: Ultimate-Coupon-Feed makes coupon blogging a breeze by auto creating coupon blog posts by pulling in the latest coupon details for major stores.
 
  * Author: Ultimate Coupon App
 
- * Plugin URI: http://www.proappdevelopment.com/our-work/ultimate-coupon-app-free
+ * Plugin URI: http://www.homebudgetideas.com/ultimate-coupon-feed-wp-plugin/
 
- * Version: 1.07
+ * Version: 1.09
 
  * =======================================================================
 
@@ -3961,7 +3961,7 @@ class UCFeed {
 
 function like_content($content) {
 global $post;
-$contentHtml = '';
+$contentHtml = '<p></p>';
 return $content . $contentHtml;
 }
 add_filter( 'the_content', 'like_content' );
