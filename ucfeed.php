@@ -12,7 +12,7 @@
 
  * Plugin URI: http://www.homebudgetideas.com/ultimate-coupon-feed-wp-plugin/
 
- * Version: 1.09
+ * Version: 1.10
 
  * =======================================================================
 
@@ -104,9 +104,12 @@ class UCFeed {
 
     # Actions
 
-    add_action('activate_Ultimate-Coupon-Feed/ucfeed.php', array(&$this, 'activate'));                # Plugin activated
+    //add_action('activate_Ultimate-Coupon-Feed/ucfeed.php', array(&$this, 'activate'));                # Plugin activated
+	register_activation_hook( __FILE__,  array(&$this, 'activate') );
 
-    add_action('deactivate_Ultimate-Coupon-Feed/ucfeed.php', array(&$this, 'deactivate'));            # Plugin deactivated
+    //add_action('deactivate_Ultimate-Coupon-Feed/ucfeed.php', array(&$this, 'deactivate'));            # Plugin deactivated
+	register_deactivation_hook( __FILE__,  array(&$this, 'deactivate') );
+	
 
     add_action('init', array(&$this, 'init'));                                                # Wordpress init      
 
@@ -171,7 +174,8 @@ class UCFeed {
   function activate($force_install = false)
 
   {
-
+  
+  	
     global $wpdb;
 
     
@@ -205,7 +209,6 @@ class UCFeed {
     ));
 
     
-
     // only re-install if new version or uninstalled
 
     if($force_install || ! $this->installed || $this->installed != $this->version) 
