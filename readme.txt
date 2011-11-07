@@ -4,7 +4,7 @@ Donate link: http://www.homebudgetideas.com
 Tags: coupons, online coupons, coupon blog, grocery coupons, autoblogging, 
 Requires at least: 2.2.1
 Tested up to: 3.2
-Stable tag: 1.10
+Stable tag: 1.11
 Ultimate-Coupon-Feed makes coupon blogging a breeze by auto creating coupon blog posts by pulling in the latest coupon details for major stores.
 
 
@@ -31,15 +31,15 @@ Upcoming Features:
 3. Follow the on-screen instructions
 == Changelog ==
 
-= 1.10 =
-* Upgrade so the plugin now works on 3.2 - sorry for the issues! Works great now.
+= 1.11 =
+* Upgrade to speed things up - Important Update!
 
 
 
 == Upgrade Notice ==
 
-= 1.10 =
-Upgrade so the plugin now works on 3.2 - sorry for the issues! Works great now.
+= 1.11 =
+* Upgrade to speed things up - Important Update!
 
 
 
